@@ -11,4 +11,5 @@
  * Evaluate consensus of BERT models, possibly with params from top performers
  * Use F1 score to evalute models.
  * Preprocessing hashtag segmentation, emoji substitution.
+ * Data representation suggestion: Hashtags have own embeddings which are concencated to BERT output.
  * ...
