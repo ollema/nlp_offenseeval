@@ -9,7 +9,7 @@
  * adapt previous nlp-assignments to be able ro read this data
  * start with a BERT model
  * Evaluate consensus of BERT models, possibly with params from top performers
- * Use F1 score to evalute models.
+ * Use macro F1 score to evalute models. (Mitigates class imbalance)
  * Preprocessing hashtag segmentation, emoji substitution.
  
  
