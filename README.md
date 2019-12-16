@@ -14,10 +14,15 @@
  
  
  
- * Data representation suggestion: Hashtags have own embeddings which are concencated to BERT output.
-  - gensim.downloader.load("glove-twitter-100")
+ * Data representation suggestions: 
+ -Hashtags have own embeddings which are concencated to BERT output.
+   - gensim.downloader.load("glove-twitter-100")
    - Has embeddings for common twitter hashtags like "maga". Needs lowercased and hashtag symbol removed. 
     This can be used to concencate emb for hashtags to use domain specific information.
+ -Concecate number of hashtags and number of emojis to classifier
+ -Randomly initialize Hashtag/emoji embeddings and train them from OLID dataset (provided from offensEval)
+    
+    
  
  * Thoughts for discussion
    - Prevailance of spelling errors make the data set noisy. BERT may split up incorrectly spelled words 
