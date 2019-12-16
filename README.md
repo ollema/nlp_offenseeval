@@ -11,5 +11,14 @@
  * Evaluate consensus of BERT models, possibly with params from top performers
  * Use F1 score to evalute models.
  * Preprocessing hashtag segmentation, emoji substitution.
+ 
+ 
+ 
  * Data representation suggestion: Hashtags have own embeddings which are concencated to BERT output.
- * ...
+  - gensim.downloader.load("glove-twitter-100")
+   - Has embeddings for common twitter hashtags like "maga". Needs lowercased and hashtag symbol removed. 
+    This can be used to concencate emb for hashtags to use domain specific information.
+ 
+ * Thoughts for discussion
+   - Prevailance of spelling errors make the data set noisy. BERT may split up incorrectly spelled words 
+     to completely unrelated words. This is a problem.
