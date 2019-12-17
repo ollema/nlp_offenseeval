@@ -10,6 +10,7 @@
  * start with a BERT model
  * Evaluate consensus of BERT models, possibly with params from top performers
  * Use macro F1 score to evalute models. (Mitigates class imbalance)
+  - macro F1 = (#correct_offensive/total_offsensive + correct_unoffsensive/total_unoffsensive)/2
  * Preprocessing hashtag segmentation, emoji substitution.
  
  
