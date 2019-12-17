@@ -2,6 +2,7 @@
 
 ## to read list:
  * https://sites.google.com/site/offensevalsharedtask/ 
+ * https://paperswithcode.com/paper/um-iuling-at-semeval-2019-task-6-identifying
  
 ## gameplan:
  * research approaches and what/which subtask(s) we would like to work on
