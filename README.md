@@ -14,7 +14,7 @@
   - macro F1 = (#correct_offensive/total_offsensive + correct_unoffsensive/total_unoffsensive)/2
  * Preprocessing hashtag segmentation, emoji substitution.
  
- 
+ * Finetuning BERT with unsupervised learning
  
  * Data representation suggestions: 
  -Hashtags have own embeddings which are concencated to BERT output.
