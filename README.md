@@ -15,6 +15,7 @@
  * Preprocessing hashtag segmentation, emoji substitution.
  
  * Finetuning BERT with unsupervised learning
+ * Spell check inccorectly spelled words and take most likely suggestion
  
  * Data representation suggestions: 
  -Hashtags have own embeddings which are concencated to BERT output.
